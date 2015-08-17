@@ -1,0 +1,22 @@
+
+<form id="226710333">
+<property name="name" value="ApproveNewTask-taskform.form"/>
+<property name="displayMode" value="default"/>
+<property name="status" value="0"/>
+<field position="0" name="newApproval" type="CheckBox" id="1955259035">
+<property name="fieldRequired" value="false"/>
+<property name="label" value="quot;enquot;,quot;newApproval_out (newApproval)quot;"/>
+<property name="readonly" value="false"/>
+<property name="outputBinding" value="newApproval_out"/>
+<property name="fieldClass" value="java.lang.Boolean"/>
+</field>
+<field position="1" name="windSpeed" type="InputTextFloat" id="272889697">
+<property name="fieldRequired" value="false"/>
+<property name="label" value="quot;enquot;,quot;windspeedout (windSpeed)quot;"/>
+<property name="readonly" value="false"/>
+<property name="outputBinding" value="windspeedout"/>
+<property name="fieldClass" value="java.lang.Float"/>
+</field>
+<dataHolder inputId="" name="#E9E371" type="basicType" outId="newApproval_out" value="java.lang.Boolean" id="newApproval"/>
+<dataHolder inputId="" name="#A7E690" type="basicType" outId="windspeedout" value="java.lang.Float" id="windSpeed"/>
+</form>

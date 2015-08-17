@@ -1,0 +1,52 @@
+
+<form id="809646017">
+<property name="name" value="Approvals.WeatherBasedApproval-taskform.form"/>
+<property name="displayMode" value="default"/>
+<property name="status" value="0"/>
+<field position="0" name="city" type="InputText" id="1807978079">
+<property name="fieldRequired" value="false"/>
+<property name="groupWithPrevious" value="false"/>
+<property name="label" value="quot;caquot;,quot;quot;quot;dequot;,quot;quot;quot;enquot;,quot;Cityquot;quot;esquot;,quot;quot;quot;frquot;,quot;quot;quot;jaquot;,quot;quot;quot;ptquot;,quot;quot;quot;zhquot;,quot;quot;"/>
+<property name="errorMessage" value="quot;caquot;,quot;quot;quot;dequot;,quot;quot;quot;enquot;,quot;quot;quot;esquot;,quot;quot;quot;frquot;,quot;quot;quot;jaquot;,quot;quot;quot;ptquot;,quot;quot;quot;zhquot;,quot;quot;"/>
+<property name="title" value="quot;caquot;,quot;quot;quot;dequot;,quot;quot;quot;enquot;,quot;quot;quot;esquot;,quot;quot;quot;frquot;,quot;quot;quot;jaquot;,quot;quot;quot;ptquot;,quot;quot;quot;zhquot;,quot;quot;"/>
+<property name="readonly" value="false"/>
+<property name="isHTML" value="false"/>
+<property name="hideContent" value="false"/>
+<property name="outputBinding" value="city"/>
+<property name="fieldClass" value="java.lang.String"/>
+</field>
+<field position="1" name="temperature" type="InputTextInteger" id="1403996509">
+<property name="fieldRequired" value="false"/>
+<property name="groupWithPrevious" value="false"/>
+<property name="label" value="quot;caquot;,quot;quot;quot;dequot;,quot;quot;quot;enquot;,quot;Temperaturequot;quot;esquot;,quot;quot;quot;frquot;,quot;quot;quot;jaquot;,quot;quot;quot;ptquot;,quot;quot;quot;zhquot;,quot;quot;"/>
+<property name="errorMessage" value="quot;caquot;,quot;quot;quot;dequot;,quot;quot;quot;enquot;,quot;quot;quot;esquot;,quot;quot;quot;frquot;,quot;quot;quot;jaquot;,quot;quot;quot;ptquot;,quot;quot;quot;zhquot;,quot;quot;"/>
+<property name="title" value="quot;caquot;,quot;quot;quot;dequot;,quot;quot;quot;enquot;,quot;quot;quot;esquot;,quot;quot;quot;frquot;,quot;quot;quot;jaquot;,quot;quot;quot;ptquot;,quot;quot;quot;zhquot;,quot;quot;"/>
+<property name="readonly" value="false"/>
+<property name="outputBinding" value="temperature"/>
+<property name="fieldClass" value="java.lang.Integer"/>
+</field>
+<field position="2" name="emailAddr" type="InputText" id="2038401986">
+<property name="fieldRequired" value="false"/>
+<property name="groupWithPrevious" value="false"/>
+<property name="label" value="quot;caquot;,quot;quot;quot;dequot;,quot;quot;quot;enquot;,quot;Email Addressquot;quot;esquot;,quot;quot;quot;frquot;,quot;quot;quot;jaquot;,quot;quot;quot;ptquot;,quot;quot;quot;zhquot;,quot;quot;"/>
+<property name="errorMessage" value="quot;caquot;,quot;quot;quot;dequot;,quot;quot;quot;enquot;,quot;quot;quot;esquot;,quot;quot;quot;frquot;,quot;quot;quot;jaquot;,quot;quot;quot;ptquot;,quot;quot;quot;zhquot;,quot;quot;"/>
+<property name="title" value="quot;caquot;,quot;quot;quot;dequot;,quot;quot;quot;enquot;,quot;quot;quot;esquot;,quot;quot;quot;frquot;,quot;quot;quot;jaquot;,quot;quot;quot;ptquot;,quot;quot;quot;zhquot;,quot;quot;"/>
+<property name="readonly" value="false"/>
+<property name="rangeFormula" value="{jpaulraj@redhat.com,jpaulraj@redhat.com;ghoelzer@redhat.com,ghoelzer@redhat.com;mhu@redhat.com,mhu@redhat.com;}"/>
+<property name="isHTML" value="false"/>
+<property name="hideContent" value="false"/>
+<property name="outputBinding" value="emailAddr"/>
+<property name="fieldClass" value="java.lang.String"/>
+</field>
+<dataHolder inputId="" name="#A7E690" type="basicType" outId="actorId" value="java.lang.String" id="actorId"/>
+<dataHolder inputId="" name="#FBB767" type="basicType" outId="city" value="java.lang.String" id="city"/>
+<dataHolder inputId="" name="#FF8881" type="basicType" outId="deferred" value="java.lang.Boolean" id="deferred"/>
+<dataHolder inputId="" name="#BBBBBB" type="basicType" outId="emailAddr" value="java.lang.String" id="emailAddr"/>
+<dataHolder inputId="" name="#A7E690" type="basicType" outId="emailMessage" value="java.lang.String" id="emailMessage"/>
+<dataHolder inputId="" name="#E9E371" type="basicType" outId="outcome" value="java.lang.Boolean" id="outcome"/>
+<dataHolder inputId="" name="#FF54A7" type="basicType" outId="temperature" value="java.lang.Integer" id="temperature"/>
+<dataHolder inputId="" name="#000000" type="basicType" outId="timeIn" value="java.lang.String" id="timeIn"/>
+<dataHolder inputId="" name="#0000A0" type="basicType" outId="timeOut" value="java.lang.String" id="timeOut"/>
+<dataHolder inputId="" name="#B29FE4" type="dataModelerEntry" outId="weather" value="com.amfam.demos.approvals.Weather" id="weather"/>
+<dataHolder inputId="" name="#9BCAFA" type="basicType" outId="windSpeed" value="java.lang.Float" id="windSpeed"/>
+</form>
